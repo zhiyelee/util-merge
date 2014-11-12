@@ -1,0 +1,26 @@
+{
+  "name": "util-merge",
+  "version": "0.0.1",
+  "description": "Returns a new object containing all of the properties of all the supplied",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter     spec --check-leaks test/" },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zhiyelee/util-merge"
+  },
+  "keywords": [
+    "merge"
+  ],
+  "author": "zhiyelee <github@zhiye.li> (http://zhiye.li)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhiyelee/util-merge/issues"
+  },
+  "homepage": "https://github.com/zhiyelee/util-merge",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1"
+  }
+}
