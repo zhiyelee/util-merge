@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec --bail --check-leaks test/",
-    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter     spec --check-leaks test/" },
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter     spec --check-leaks test/"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/zhiyelee/util-merge"
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/zhiyelee/util-merge",
   "devDependencies": {
     "chai": "^1.10.0",
+    "istanbul": "^0.3.2",
     "mocha": "^2.0.1"
   }
 }
