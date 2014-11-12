@@ -8,7 +8,7 @@ Simple `merge` function, returns a new object containing all of the properties o
 
 ##Installation
 
-    npm install mdserver
+    npm install util-merge
 
 ## Usage
 
