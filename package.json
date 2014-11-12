@@ -1,7 +1,7 @@
 {
   "name": "util-merge",
-  "version": "0.0.1",
-  "description": "Returns a new object containing all of the properties of all the supplied",
+  "version": "0.0.2",
+  "description": "simple `merge` function, return all the properties of all the supplied objects",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec --bail --check-leaks test/",
