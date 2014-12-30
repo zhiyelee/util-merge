@@ -19,6 +19,9 @@
   "files": [
     "index.js"
   ],
+  "engines": {
+    "node": ">= 0.6.0"
+  },
   "author": "zhiyelee <github@zhiye.li> (http://zhiye.li)",
   "license": "MIT",
   "bugs": {
@@ -28,6 +31,6 @@
   "devDependencies": {
     "chai": "^1.10.0",
     "istanbul": "^0.3.2",
-    "mocha": "^2.0.1"
+    "mocha": "^2.1.0"
   }
 }
