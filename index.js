@@ -1,23 +1,23 @@
 'use strict;'
 
-module.exports = Object.assign || function merge () {
-    var hasOwn = Object.prototype.hasOwnProperty;
-    var result = {};
+module.exports = Object.assign || function () {
+  var hasOwn = Object.prototype.hasOwnProperty;
+  var result = {};
 
-    var key,
-        obj,
-        i = 0;
-    var len = arguments.length;
+  var key,
+    obj,
+    i = 0;
+  var len = arguments.length;
 
-    for (; i < len; ++i) {
-        obj = arguments[i];
+  for (; i < len; ++i) {
+    obj = arguments[i];
 
-        for (key in obj) {
-            if (hasOwn.call(obj, key)) {
-                result[key] = obj[key];
-            }
-        }
+    for (key in obj) {
+      if (hasOwn.call(obj, key)) {
+        result[key] = obj[key];
+      }
     }
+  }
 
-    return result;
+  return result;
 };

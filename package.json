@@ -1,7 +1,7 @@
 {
   "name": "util-merge",
-  "version": "0.0.2",
-  "description": "simple `merge` function, return all the properties of all the supplied objects",
+  "version": "1.0.0",
+  "description": "simple `merge` function, return all the properties of all the supplied objects, acts like the `Object.assign`",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec --bail --check-leaks test/",
@@ -12,7 +12,12 @@
     "url": "git://github.com/zhiyelee/util-merge"
   },
   "keywords": [
-    "merge"
+    "merge",
+    "Object.assign",
+    "es6 shim"
+  ],
+  "files": [
+    "index.js"
   ],
   "author": "zhiyelee <github@zhiye.li> (http://zhiye.li)",
   "license": "MIT",
