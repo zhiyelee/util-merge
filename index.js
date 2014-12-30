@@ -1,6 +1,6 @@
 'use strict;'
 
-module.exports = function merge () {
+module.exports = Object.assign || function merge () {
     var hasOwn = Object.prototype.hasOwnProperty;
     var result = {};
 
