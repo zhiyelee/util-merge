@@ -8,7 +8,7 @@ module.exports = function () {
 
   var obj;
   var key;
-  for (vai i = 0; i < len; ++i) {
+  for (var i = 0; i < len; ++i) {
     obj = arguments[i];
 
     for (key in obj) {
