@@ -1,15 +1,14 @@
 'use strict;'
 
-module.exports = Object.assign || function () {
+module.exports = function () {
   var hasOwn = Object.prototype.hasOwnProperty;
   var result = {};
 
-  var key,
-    obj,
-    i = 0;
   var len = arguments.length;
 
-  for (; i < len; ++i) {
+  var obj;
+  var key;
+  for (vai i = 0; i < len; ++i) {
     obj = arguments[i];
 
     for (key in obj) {
